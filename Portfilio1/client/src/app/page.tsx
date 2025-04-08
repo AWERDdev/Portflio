@@ -1,9 +1,9 @@
 import NavBar from '@/components/NavBar';
-
+import AboutMe from '@/components/AboutMe'
 export default function Home() {
   return (
     <>
-      <main className="w-screen min-h-screen bg-gradient-to-b from-[#0f172a] to-[#1e293b] transition duration-300 ">
+      <main className="w-screen min-h-screen bg-gradient-to-b from-[#0f172a] to-[#1e293b] transition duration-300 overflow-x-hidden ">
         <div className="NavBar">
           <NavBar />
         </div>
@@ -32,6 +32,9 @@ export default function Home() {
                 View Projects
               </button>
             </div>
+          </div>
+          <div className="AboutMe mt-10">
+            <AboutMe/>  
           </div>
         </div>
       </main>
