@@ -53,14 +53,17 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="AboutMe mt-10">
+        <div className="AboutMe mt-30">
           <AboutMe />
         </div>
 
-        <div className="Skills_Expertise mt-10 bg-[#111827] flex flex-wrap justify-center">
+        <div className="Skills_Expertise  mt-30 bg-[#111827] grid sm:flex  justify-center">
           <Card {...Card1} />
           <Card {...Card2} />
           <Card {...Card3} />
+        </div>
+        <div className="Featured_Projects">
+          
         </div>
       </main>
     </>
